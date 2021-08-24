@@ -1,4 +1,4 @@
-# Teams-clone
+# Let's Meet
 
 It is a Web Application through which one can do video meetings with multiple participants.
 
@@ -24,7 +24,6 @@ Video Conversation between multiple participants(more than 2)
    * Audio toggle
    * Share meet link (Enables user to copy the link)
    * Present screen
-   * Recording the meet
    * Chat feature(live chat)
    * Number of attendees
    * Waiting room(user joins the meet only after clicking join call button else stays in the waiting room)
