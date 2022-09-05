@@ -1,10 +1,10 @@
 <!-- sign up page -->
 <div class="container py-5"
     style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
-    <h3 class="text-center mb-3">REGISTER</h3>
+    <h3 class="text-center mb-3" style= "color:#ffffff; font-size: 38px;">Let's Meet</h3>
     <div class="card border-info mb-3" style="width:100%; max-width: 30rem;">
         <div style="display: flex; justify-content: space-between; align-items: center; background-color: #d4f2fa;" class="card-header">
-            <p class="m-0">Login</p><a href="/login" type="button" class="btn btn-outline-info">login</a>
+            <p class="m-0">Register</p><a href="/login" type="button" class="btn btn-outline-info">Sign In</a>
         </div>
         <div class="card-body">
             <form action="/signup" method="POST">
@@ -68,11 +68,32 @@
 </div>
 
 <style>
+    .card-body-image{
+                height: 250px;
+                width: 250px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            .btn-outline-success{
+                     color:whitesmoke;
+                     border: #6264a7;
+                     
+            }
+            .btn-outline-success:hover{
+                     color:#6264a7;
+                     background-color: whitesmoke;
+                     border: whitesmoke;
+            }
     body {
-        background-image:url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png");
+         display: flex;
+        justify-content: center;
+        align-items: center;
         height: 600px;
-        background-position: center; 
-        background-repeat: no-repeat; 
-        background-size: cover;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        background: #222;
+        background-image: url('https://source.unsplash.com/1600x900/?landscape');
+        font-size: 120%;
     }
 </style>
